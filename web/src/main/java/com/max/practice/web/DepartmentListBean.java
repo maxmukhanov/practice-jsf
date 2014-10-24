@@ -12,6 +12,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,7 +20,7 @@ import java.util.Map;
 
 @ManagedBean
 @ViewScoped
-public class DepartmentListBean extends ExtendedDataModel<Department> {
+public class DepartmentListBean extends ExtendedDataModel<Department>  implements Serializable {
     private static final Logger LOGGER = Logger.getLogger(DepartmentListBean.class);
 
     private static final Integer DEFAULT_PAGE = 1;

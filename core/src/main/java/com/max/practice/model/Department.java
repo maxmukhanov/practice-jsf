@@ -1,9 +1,11 @@
 package com.max.practice.model;
 
+import java.io.Serializable;
+
 /**
  * Created by mmukhanov on 02.09.2014.
  */
-public class Department {
+public class Department implements Serializable {
     private Long id;
     private String name;
 

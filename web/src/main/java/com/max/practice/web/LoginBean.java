@@ -9,10 +9,11 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import java.io.IOException;
+import java.io.Serializable;
 
 @ManagedBean
 @RequestScoped
-public class LoginBean {
+public class LoginBean implements Serializable {
     private String name;
     private char [] password;
 
