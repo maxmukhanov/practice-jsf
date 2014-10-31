@@ -12,7 +12,6 @@
     <modules>
         <module>core</module>
         <module>web</module>
-        <module>weblogic</module>
     </modules>
 
     <properties>
