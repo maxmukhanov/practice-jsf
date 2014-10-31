@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>web</artifactId>
-    <version>${project.parent.version}</version>
+    <version>1.0.2</version>
     <packaging>war</packaging>
 
     <properties>
@@ -23,7 +23,7 @@
         <dependency>
             <groupId>com.max</groupId>
             <artifactId>core</artifactId>
-            <version>${project.parent.version}</version>
+            <version>1.0.2</version>
         </dependency>
 
         <dependency>
