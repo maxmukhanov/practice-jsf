@@ -90,5 +90,8 @@
     </build>
 
 
+    <scm>
+        <connection>scm:git:git@github.com:maxmukhanov/practice-jsf.git</connection>
+    </scm>
 
 </project>
