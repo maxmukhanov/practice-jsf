@@ -6,7 +6,7 @@
 
     <groupId>com.max</groupId>
     <artifactId>practice-jsf</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -88,10 +88,5 @@
 
         </plugins>
     </build>
-
-
-    <scm>
-        <connection>scm:git:git@github.com:maxmukhanov/practice-jsf.git</connection>
-    </scm>
 
 </project>
