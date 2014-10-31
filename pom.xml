@@ -6,7 +6,7 @@
 
     <groupId>com.max</groupId>
     <artifactId>practice-jsf</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -82,6 +82,12 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+
+        </plugins>
+    </build>
 
 
 
