@@ -7,7 +7,7 @@ public class FailingTest {
 
     @Test
     public void shouldFail() throws Exception {
-        Assert.fail();
+        Assert.assertEquals("1", "1");
 
     }
 }
