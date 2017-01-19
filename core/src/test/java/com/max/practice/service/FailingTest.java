@@ -8,7 +8,7 @@ public class FailingTest {
 
     @Test
     public void shouldFail() throws Exception {
-        Assert.assertEquals("1", "1");
+        Assert.fail();
 
     }
 
@@ -16,6 +16,12 @@ public class FailingTest {
     @Test
     public void testIgnore() throws Exception {
 
+
+    }
+
+    @Test
+    public void successTest() throws Exception {
+        Assert.assertEquals("1", "1");
 
     }
 }
