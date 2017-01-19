@@ -6,11 +6,6 @@ import org.junit.Test;
 
 public class FailingTest {
 
-    @Test
-    public void shouldFail() throws Exception {
-        Assert.fail();
-
-    }
 
     @Ignore
     @Test
