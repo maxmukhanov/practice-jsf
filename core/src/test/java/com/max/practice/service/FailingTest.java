@@ -19,4 +19,10 @@ public class FailingTest {
         Assert.assertEquals("1", "1");
 
     }
+
+    @Test
+    public void successTest2() throws Exception {
+        Assert.assertEquals("1", "1");
+
+    }
 }
