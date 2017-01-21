@@ -6,16 +6,29 @@ import org.junit.Test;
 
 public class FailingTest {
 
-    @Test
-    public void shouldFail() throws Exception {
-        Assert.assertEquals("1", "1");
-
-    }
 
     @Ignore
     @Test
     public void testIgnore() throws Exception {
 
+
+    }
+
+    @Test
+    public void successTest() throws Exception {
+        Assert.assertEquals("1", "1");
+
+    }
+
+    @Test
+    public void successTest2() throws Exception {
+        Assert.assertEquals("1", "1");
+
+    }
+
+    @Test
+    public void successTest3() throws Exception {
+        Assert.assertEquals("1", "1");
 
     }
 }
