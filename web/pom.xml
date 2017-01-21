@@ -5,11 +5,11 @@
     <parent>
         <groupId>com.max</groupId>
         <artifactId>practice-jsf</artifactId>
-        <version>1.4</version>
+        <version>1.4.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>web</artifactId>
-    <version>1.4</version>
+    <version>1.4.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <properties>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>com.max</groupId>
             <artifactId>core</artifactId>
-            <version>1.4</version>
+            <version>1.4.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
