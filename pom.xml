@@ -122,7 +122,7 @@
     </distributionManagement>
 
     <scm>
-        <developerConnection>scm:git@github.com:maxmukhanov/practice-jsf.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:maxmukhanov/practice-jsf.git</developerConnection>
     </scm>
 
     <build>
