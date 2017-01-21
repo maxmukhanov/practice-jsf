@@ -5,11 +5,11 @@
     <parent>
         <groupId>com.max</groupId>
         <artifactId>practice-jsf</artifactId>
-        <version>1.4.1-SNAPSHOT</version>
+        <version>1.5</version>
     </parent>
 
     <artifactId>core</artifactId>
-    <version>1.4.1-SNAPSHOT</version>
+    <version>1.5</version>
     <packaging>jar</packaging>
 
     <properties>
